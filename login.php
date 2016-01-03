@@ -5,7 +5,7 @@
 
 		if (isset($_POST["userId"]) && isset($_POST["password"])) 
 		{		
-		echo $_POST["userId"];
+		echo htmlspecialchars($_POST["userId"]);
 		echo "<br>";
 		echo $_POST["password"];
 	}
@@ -27,6 +27,7 @@
 	</form>
 </body>
 </html>
+
 <?php
 }
 ?>
