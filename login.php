@@ -1,15 +1,16 @@
 	<?php
 
 		//print_r($_POST);
-		echo "<br>";
+		// echo "<br>";
 
-		if (!empty($_POST)) 
+		if (isset($_POST["userId"]) && isset($_POST["password"])) 
 		{		
 		echo $_POST["userId"];
 		echo "<br>";
 		echo $_POST["password"];
 	}
-
+	else
+	{
 	?>
 
 <html>
@@ -24,18 +25,8 @@
 		<input type="submit">
 
 	</form>
-	<?php
-
-		//print_r($_POST);
-		echo "<br>";
-
-		if (!empty($_POST)) 
-		{		
-		echo $_POST["userId"];
-		echo "<br>";
-		echo $_POST["password"];
-	}
-
-	?>
 </body>
 </html>
+<?php
+}
+?>
