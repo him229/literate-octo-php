@@ -1,8 +1,6 @@
 	<?php
-
 		//print_r($_POST);
 		// echo "<br>";
-
 		if (isset($_POST["userId"]) && isset($_POST["password"])) 
 		{		
 		echo htmlspecialchars($_POST["userId"]);
