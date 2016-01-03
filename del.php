@@ -1,3 +1,3 @@
 <?php
-	htmlspecialchars(echo "<Strong>")
+	echo(htmlspecialchars("<strong>himank</strong>"));
 ?>
