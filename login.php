@@ -10,7 +10,6 @@
 	else
 	{
 	?>
-
 <html>
 <title>
 </title>
