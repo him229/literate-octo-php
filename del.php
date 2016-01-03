@@ -1,0 +1,3 @@
+<?php
+	htmlspecialchars(echo "<Strong>")
+?>
